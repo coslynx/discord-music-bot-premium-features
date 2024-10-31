@@ -1,0 +1,38 @@
+require('dotenv').config();
+
+module.exports = {
+  development: {
+    DISCORD_TOKEN: process.env.DISCORD_TOKEN,
+    DB_HOST: process.env.DB_HOST,
+    DB_USER: process.env.DB_USER,
+    DB_PASS: process.env.DB_PASS,
+    DB_NAME: process.env.DB_NAME,
+    LAVALINK_HOST: process.env.LAVALINK_HOST,
+    LAVALINK_PASSWORD: process.env.LAVALINK_PASSWORD,
+    STRIPE_SECRET_KEY: process.env.STRIPE_SECRET_KEY,
+    PAYPAL_CLIENT_ID: process.env.PAYPAL_CLIENT_ID,
+    PAYPAL_SECRET: process.env.PAYPAL_SECRET,
+    SPOTIFY_CLIENT_ID: process.env.SPOTIFY_CLIENT_ID,
+    SPOTIFY_CLIENT_SECRET: process.env.SPOTIFY_CLIENT_SECRET,
+    YOUTUBE_API_KEY: process.env.YOUTUBE_API_KEY,
+    DEEZER_APP_ID: process.env.DEEZER_APP_ID,
+    DEEZER_APP_SECRET: process.env.DEEZER_APP_SECRET,
+  },
+  production: {
+    DISCORD_TOKEN: process.env.DISCORD_TOKEN,
+    DB_HOST: process.env.DB_HOST,
+    DB_USER: process.env.DB_USER,
+    DB_PASS: process.env.DB_PASS,
+    DB_NAME: process.env.DB_NAME,
+    LAVALINK_HOST: process.env.LAVALINK_HOST,
+    LAVALINK_PASSWORD: process.env.LAVALINK_PASSWORD,
+    STRIPE_SECRET_KEY: process.env.STRIPE_SECRET_KEY,
+    PAYPAL_CLIENT_ID: process.env.PAYPAL_CLIENT_ID,
+    PAYPAL_SECRET: process.env.PAYPAL_SECRET,
+    SPOTIFY_CLIENT_ID: process.env.SPOTIFY_CLIENT_ID,
+    SPOTIFY_CLIENT_SECRET: process.env.SPOTIFY_CLIENT_SECRET,
+    YOUTUBE_API_KEY: process.env.YOUTUBE_API_KEY,
+    DEEZER_APP_ID: process.env.DEEZER_APP_ID,
+    DEEZER_APP_SECRET: process.env.DEEZER_APP_SECRET,
+  },
+};
